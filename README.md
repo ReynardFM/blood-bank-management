@@ -6,7 +6,7 @@ a pending queue, approve or reject requests, and record donations against donor 
 
 ## Live Demo
 
-https://<your-app>.onrender.com
+https://blood-bank-management-bvx1.onrender.com
 
 Hosted on Render's free tier, so the first load can take up to a minute while it wakes up.
 
@@ -36,9 +36,9 @@ Java 21 · Spring Boot · Spring MVC · Spring Security · Spring Data JPA · Th
 1. Clone the repository and open the `BloodBank` folder as the project root.
 2. Start **MySQL** from the XAMPP control panel. The database and tables are created
    automatically on first run — no manual SQL needed.
-3. If your MySQL uses a different username or password, update `spring.datasource.username`
-   and `spring.datasource.password` in `src/main/resources/application.properties`. The
-   defaults assume XAMPP's `root` account with an empty password.
+3. The defaults assume XAMPP's `root` account with an empty password. To use a different
+   database or login, set the `DB_URL`, `DB_USER` and `DB_PASS` environment variables
+   instead of editing `application.properties`.
 
 ### Run
 
