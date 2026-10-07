@@ -4,6 +4,21 @@ A Spring Boot web application for managing blood donors and blood requests. Dono
 complete a profile, and raise requests for the blood group a patient needs. Administrators review
 a pending queue, approve or reject requests, and record donations against donor accounts.
 
+## Live Demo
+
+https://<your-app>.onrender.com
+
+Hosted on Render's free tier, so the first load can take up to a minute while it wakes up.
+
+**Demo logins**
+
+| Role  | Email                | Password     |
+|-------|----------------------|--------------|
+| Admin | admin@lifeline.com   | Admin123!    |
+| Donor | jane.doe@example.com | Password123! |
+
+Demo data resets from time to time. Please don't change the demo passwords.
+
 ## Built with
 
 Java 21 · Spring Boot · Spring MVC · Spring Security · Spring Data JPA · Thymeleaf · MySQL · Maven
